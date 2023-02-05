@@ -133,6 +133,19 @@ p {
   list-style: none;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
 @media (max-width: 768px) {
   h2 {
     font-size: 35px;
